@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αγορά™ WebSite</title>
+    <link rel="WebSite icon" type="png" href="../../../../img-logo/img-tienda-WebSite.png">
+    <link rel="stylesheet" href="info-gris-dior.css">
+    <script src="https://kit.fontawesome.com/f812da5046.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="img-logoprin">
+                <a href="../../../../index.html">
+                    <img src="../../../../img-logo/img-tienda.png" width="100px">
+                </a>
+            </div>
+
+            <div class="ini-carrito">
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="../../../../Usuarios/Crear-cuenta/Crear.html" class="inicio-carritodecompras">
+                            Iniciar Sesion
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!--SEGUNDO CONTENEDOR-->
+        <!--PRODUCTOS-->
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" class="productos">
+                        SALES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        ICONS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        MEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        WOMEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        KIDS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        EYEWARE
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        GIFTS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        SPECIAL ITEMS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        BRAND
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <main>
+            <div class="header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dior_Logo_2022.svg/1280px-Dior_Logo_2022.svg.png"
+                    alt="logomarca" class="img-marca">
+            </div>
+
+            <div class="primer-contenido">
+                <div class="primer-contenerdor">
+                    <div class="container-img">
+                        <div class="produt-tittle">
+                            <h3 class="tittle">
+                                DIOR BOOK TOTE
+                            </h3>
+                        </div>
+
+                        <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwc6d5161b/assets/Y0840550/Y0840550_F084055009_E03_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=430"
+                            alt="producto" class="img-producto" />
+                    </div>
+                </div>
+
+                <div class="segundo-contenerdor">
+                    <div class="container-info-product">
+                        <div class="container-price">
+                            <span class="price">
+                                <strong>S/. 360</strong>
+                            </span>
+                        </div>
+
+                        <div class="container-details-product">
+                            <div class="form-group">
+                                <label for="colour">
+                                    <strong>
+                                        Color
+                                    </strong>
+                                </label>
+
+                                <select name="colour" id="colour">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="Negro">Gris Dior</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="size">Talla</label>
+                                <select name="size" id="size">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="Vaporizador 40 ml">Vaporizador 40 ml</option>
+                                    <option value="Vaporizador 125 ml">Vaporizador 125 ml</option>
+                                    <option value="Vaporizador 250 ml">Vaporizador 250 ml</option>
+                                </select>
+                            </div>
+
+                            <button class="btn-clean">Limpiar</button>
+
+                        </div>
+
+                        <div class="container-add-cart">
+                            <div class="container-quantity">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                                <div class="btn-increment-decrement">
+                                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                                </div>
+                            </div>
+
+                            <button class="btn-add-to-cart">
+                                <i class="fa-regular fa-plus"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+
+                        <div class="container-description">
+                            <div class="tittle-description">
+                                <h4>Descripción</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-description hidden">
+                                <p>
+                                    Gris Dior es la expresión olfativa del gris, el color emblemático de la Maison Dior,
+                                    que encarna el ingenio audaz de Christian Dior.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-additional-information">
+                            <div class="tittle-additional-information">
+                                <h4>Información adicional</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="text-additional-information hidden">
+                                <p>
+                                    Gris Dior mezcla sin tabúes modernidad y tradición, jugando la carta unisex sin
+                                    complejos. Es polifacética y más compleja de lo que parece, como el color gris, rico
+                                    en matices y sutilezas, todo menos una simple mezcla de blanco y negro.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-reviews">
+                            <div class="tittle-reviews">
+                                <h4>Reseñas</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-reviews hidden">
+                                <p>ga</p>
+                            </div>
+                        </div>
+
+                        <div class="container-social">
+                            <span>Compartir</span>
+
+                            <div class="button-social">
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+
+                                <a href="https://www.pinterest.es/">
+                                    <i class="fa-brands fa-square-pinterest"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="container-related-products">
+            <h2>TAMBIÉN PODRÍA INTERESARTE</h2>
+            <div class="card-list-products">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwbbe3ecd7/assets/Y0996612/Y0996612_C099700102_E01_ZHC.jpg?sw=870&sh=580&sm=fit&imwidth=870"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    MISS DIOR
+                                </strong>
+                            </h3>
+                            <p class="category">Eau de Toilette</p>
+                        </div>
+                        <div class="price">S/. 460</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwa81b3fd5/assets/Y0997068/Y0997068_C099700386_E01_ZHC.jpg?sw=870&sh=580&sm=fit&imwidth=870"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    DIOR MITZAH
+                                </strong>
+                            </h3>
+                            <p class="category">Bag</p>
+                        </div>
+                        <div class="price">S/. 340</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwbe1a70e5/assets/Y0996491/Y0996491_C099600981_E01_ZHC.jpg?sw=870&sh=580&sm=fit&imwidth=870"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    DIOR J'ADORE
+                            </h3>
+                            <p class="category">Eau de Parfum</p>
+                        </div>
+                        <div class="price">S/. 290</div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwcfd9ed52/assets/Y0997002/Y0997002_C099700055_E01_ZHC.jpg?sw=870&sh=580&sm=fit&imwidth=870"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    DIOR COLLE NOIRE
+                                </strong>
+                            </h3>
+                            <p class="category">Hands and Body</p>
+                        </div>
+                        <div class="price">S/. 260</div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://kit.fontawesome.com/f97468d9fe.js" crossorigin="anonymous"></script>
+            <script src="info-gris-dior.js"></script>
+        </section>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-general">
+        <div class="suscription">
+            <div>
+                <h3 class="footer-tittle">
+                    SUSCRÍBASE AL BOLETÍN SEMANAL
+                </h3>
+            </div>
+
+            <div>
+                <p class="suscription-paragraph">
+                    Suscríbase a nuestro boletín para recibir información sobre avances exclusivos de la colección,
+                    eventos especiales y ofertas de venta de temporada.
+                </p>
+
+                <div class="subir-correo-suscribe">
+                    <form action="">
+                        <input class="input-suscribe" type="address-suscribe" name="address-suscribe"
+                            id="address-suscribe" placeholder="EMAIL ADDRESS">
+                    </form>
+                </div>
+
+                <p class="suscription-paragraph">
+                    Al suscribirte a la newsletter, confirmas haber leído la <a href=""
+                        class="privacy-policy-p"><u>Política de Privacidad</u></a> y acepta el procesamiento de sus
+                    datos personales con fines de marketing.
+                </p>
+
+                <div class="button-suscribe">
+                    <button class="but-suscribe">
+                        SUSCRIBETE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="help">
+            <div class="#"><!--asistencia virtual-->
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-help">
+                        AYUDA
+                    </h3>
+                </div>
+
+                <ul class="ul-help">
+                    <li class="li-footer-help">
+                        <a href="#" class="help-list">
+                            CONTÁCTENOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            FAQS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            ENVÍO Y DEVOLUCIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            DEVOLUCIONES DE INVITADOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            MÉTODOS DE PAGO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            RASTREA TU ORDEN
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            CERTIFICADOS DE GAFAS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="legal">
+            <div class="#">
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-legal">
+                        LEGAL
+                    </h3>
+                </div>
+
+                <ul class="ul-legal">
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            TÉRMINOS Y CONDICIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            ACCESIBILIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            POLÍTICA DE PRIVACIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            POLÍTICA DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            PREFERENCIAS DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            MARCO NORMATIVO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            INFORMACIÓN CORPORATIVA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="find-us">
+            <div class="description-findus">
+                <div class="description">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle tittle-find-us">
+                            ENCUÉNTRANOS
+                        </h3>
+                    </div>
+
+                    <ul class="ul-find-us">
+                        <li class="li-footer-findus">
+                            <a href="" class="findus-list">
+                                LOCALIZADOR DE TIENDAS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="redes-sociales">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle">
+                            SEGUINOS Αγορά™
+                        </h3>
+                    </div>
+
+                    <div class="img-social-media">
+                        <ul class="ul-social-media">
+                            <li class="li-footer-follow">
+                                <a href="https://www.instagram.com/?hl=es-la">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://es-la.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3 class="footer-privacypolicy">
+        © 2023 Αγορά™ - All right reserved.
+        <a href="#" class="privacy-policy-p">
+            <u>Privacy Policy</u>
+        </a>
+    </h3>
+</footer>
+
+</html>

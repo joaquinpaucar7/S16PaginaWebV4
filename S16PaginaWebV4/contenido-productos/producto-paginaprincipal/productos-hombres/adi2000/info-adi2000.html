@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αγορά™ WebSite</title>
+    <link rel="WebSite icon" type="png" href="../../../../img-logo/img-tienda-WebSite.png">
+    <link rel="stylesheet" href="info-adi2000.css">
+    <script src="https://kit.fontawesome.com/f812da5046.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="img-logoprin">
+                <a href="../../../../index.html">
+                    <img src="../../../../img-logo/img-tienda.png" width="100px">
+                </a>
+            </div>
+
+            <div class="ini-carrito">
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="../../../../Usuarios/Iniciar-Sesion/login.html" class="inicio-carritodecompras">
+                            Iniciar Sesion
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!--SEGUNDO CONTENEDOR-->
+        <!--PRODUCTOS-->
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" class="productos">
+                        SALES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        ICONS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        MEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        WOMEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        KIDS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        EYEWARE
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        GIFTS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        SPECIAL ITEMS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        BRAND
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <main>
+            <div class="header">
+                <img src="https://ams3.digitaloceanspaces.com/graffica/2022/12/adidas_318-565831.webp" alt="logomarca"
+                    class="img-marca">
+            </div>
+
+            <div class="primer-contenido">
+                <div class="primer-contenerdor">
+                    <div class="container-img">
+                        <div class="produt-tittle">
+                            <h3 class="tittle">
+                                ADIDAS ADI2000
+                            </h3>
+                        </div>
+
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e2cf24d7a0c64a33b7ebae9000f43591_9366/Zapatillas_adi2000_Negro_GX4634_011_hover_standard.jpg"
+                            alt="producto" class="img-producto" />
+                    </div>
+                </div>
+
+                <div class="segundo-contenerdor">
+                    <div class="container-info-product">
+                        <div class="container-price">
+                            <span class="price">
+                                <strong>S/. 479</strong>
+                            </span>
+                        </div>
+
+                        <div class="container-details-product">
+                            <div class="form-group">
+                                <label for="colour">
+                                    <strong>
+                                        Color
+                                    </strong>
+                                </label>
+
+                                <select name="colour" id="colour">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="Core Black">Core Black</option>
+                                    <option value="Carbon">Carbon</option>
+                                    <option value="Clay Strata">Clay Strata</option>
+                                    <option value="Cloud White">Cloud White</option>
+                                    <option value="Pulse Magenta">Pulse Magenta</option>
+                                    <option value="Metal Gray">Metal Gray</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="size">Talla</label>
+                                <select name="size" id="size">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="40">40</option>
+                                    <option value="41">41</option>
+                                    <option value="42">42</option>
+                                    <option value="44">44</option>
+                                </select>
+                            </div>
+
+                            <button class="btn-clean">Limpiar</button>
+
+                        </div>
+
+                        <div class="container-add-cart">
+                            <div class="container-quantity">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                                <div class="btn-increment-decrement">
+                                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                                </div>
+                            </div>
+
+                            <button class="btn-add-to-cart">
+                                <i class="fa-regular fa-plus"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+
+                        <div class="container-description">
+                            <div class="tittle-description">
+                                <h4>Descripción</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-description hidden">
+                                <p>
+                                    ZAPATILLAS FLEXIBLES QUE SE MUEVEN CONTIGO, HECHAS PARCIALMENTE CON MATERIAL
+                                    RECICLADO
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-additional-information">
+                            <div class="tittle-additional-information">
+                                <h4>Información adicional</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="text-additional-information hidden">
+                                <p>
+                                    <strong>
+                                        *** UNISEX, HORMA GRANDE ***
+                                    </strong>
+                                </p>
+
+                                <p>
+                                    Para pies delgados recomendamos comprar la talla inferior.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-reviews">
+                            <div class="tittle-reviews">
+                                <h4>Reseñas</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-reviews hidden">
+                                <p>ga</p>
+                            </div>
+                        </div>
+
+                        <div class="container-social">
+                            <span>Compartir</span>
+
+                            <div class="button-social">
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+
+                                <a href="https://www.pinterest.es/">
+                                    <i class="fa-brands fa-square-pinterest"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="container-related-products">
+            <h2>TAMBIÉN PODRÍA INTERESARTE</h2>
+            <div class="card-list-products">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03a7cf7a50264d41bb45afb3016ba640_9366/Zapatillas_Gazelle_Indoor_Sean_Wotherspoon_Beige_IG2849_01_standard.jpg"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    NIKE  GAZELLE INDOOR
+                                </strong>
+                            </h3>
+                            <p class="category">Footwear, Originals</p>
+                        </div>
+                        <div class="price">S/. 579</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4732f82ac2d54157a0fdaf9c00f7a59d_9366/Zapatillas_OZWEEGO_Plomo_HP6382_01_standard.jpg"
+                            alt="producto">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    ADIDAS OZWEEGO
+                                </strong>
+                            </h3>
+                            <p class="category">Men, Originals</p>
+                        </div>
+                        <div class="price">S/. 529</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Zapatillas_Samba_OG_Blanco_B75806_01_standard.jpg"
+                            alt="producto">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    ADIDAS SAMBA OG
+                                </strong>
+                            </h3>
+                            <p class="category">Foowear, Sneakers</p>
+                        </div>
+                        <div class="price">S/. 459</div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d99ac3a29abc433892b4af0700b5ecca_9366/Zapatillas_OZELIA_Knit_Negro_GW9381_01_standard.jpg"
+                            alt="producto">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    ADIDAS OZELIA KNIT
+                                </strong>
+                            </h3>
+                            <p class="category">Foowear, Sneakers</p>
+                        </div>
+                        <div class="price">S/. 479</div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://kit.fontawesome.com/f97468d9fe.js" crossorigin="anonymous"></script>
+            <script src="info-adi2000.js"></script>
+        </section>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-general">
+        <div class="suscription">
+            <div>
+                <h3 class="footer-tittle">
+                    SUSCRÍBASE AL BOLETÍN SEMANAL
+                </h3>
+            </div>
+
+            <div>
+                <p class="suscription-paragraph">
+                    Suscríbase a nuestro boletín para recibir información sobre avances exclusivos de la colección,
+                    eventos especiales y ofertas de venta de temporada.
+                </p>
+
+                <div class="subir-correo-suscribe">
+                    <form action="">
+                        <input class="input-suscribe" type="address-suscribe" name="address-suscribe"
+                            id="address-suscribe" placeholder="EMAIL ADDRESS">
+                    </form>
+                </div>
+
+                <p class="suscription-paragraph">
+                    Al suscribirte a la newsletter, confirmas haber leído la <a href=""
+                        class="privacy-policy-p"><u>Política de Privacidad</u></a> y acepta el procesamiento de sus
+                    datos personales con fines de marketing.
+                </p>
+
+                <div class="button-suscribe">
+                    <button class="but-suscribe">
+                        SUSCRIBETE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="help">
+            <div class="#"><!--asistencia virtual-->
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-help">
+                        AYUDA
+                    </h3>
+                </div>
+
+                <ul class="ul-help">
+                    <li class="li-footer-help">
+                        <a href="#" class="help-list">
+                            CONTÁCTENOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            FAQS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            ENVÍO Y DEVOLUCIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            DEVOLUCIONES DE INVITADOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            MÉTODOS DE PAGO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            RASTREA TU ORDEN
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            CERTIFICADOS DE GAFAS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="legal">
+            <div class="#">
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-legal">
+                        LEGAL
+                    </h3>
+                </div>
+
+                <ul class="ul-legal">
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            TÉRMINOS Y CONDICIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            ACCESIBILIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            POLÍTICA DE PRIVACIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            POLÍTICA DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            PREFERENCIAS DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            MARCO NORMATIVO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            INFORMACIÓN CORPORATIVA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="find-us">
+            <div class="description-findus">
+                <div class="description">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle tittle-find-us">
+                            ENCUÉNTRANOS
+                        </h3>
+                    </div>
+
+                    <ul class="ul-find-us">
+                        <li class="li-footer-findus">
+                            <a href="" class="findus-list">
+                                LOCALIZADOR DE TIENDAS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="redes-sociales">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle">
+                            SEGUINOS Αγορά™
+                        </h3>
+                    </div>
+
+                    <div class="img-social-media">
+                        <ul class="ul-social-media">
+                            <li class="li-footer-follow">
+                                <a href="https://www.instagram.com/?hl=es-la">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://es-la.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3 class="footer-privacypolicy">
+        © 2023 Αγορά™ - All right reserved.
+        <a href="#" class="privacy-policy-p">
+            <u>Privacy Policy</u>
+        </a>
+    </h3>
+</footer>
+
+</html>

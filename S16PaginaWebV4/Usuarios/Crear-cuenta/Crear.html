@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αγορά™ WebSite</title>
+    <link rel="WebSite icon" type="png" href="../../img-logo/img-tienda-WebSite.png">
+    <link rel="stylesheet" href="Crear.css">
+    <script src="https://kit.fontawesome.com/f812da5046.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="img-logoprin">
+                <a href="../../index.html">
+                    <img src="../../img-logo/img-tienda.png" width="100px">
+                </a>
+            </div>
+
+            <div class="ini-carrito">
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="../Iniciar-Sesion/login.html" class="inicio-carritodecompras">
+                            Iniciar Sesion
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    
+        <!--SEGUNDO CONTENEDOR-->
+        <!--PRODUCTOS-->
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" class="productos">
+                        SALES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        ICONS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        MEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        WOMEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        KIDS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        EYEWARE
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        GIFTS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        SPECIAL ITEMS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        BRAND
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--LOGIN INICIAR SESION-->
+    <!--INICIAR SESION-->
+    <main>
+        <div class="contenedor-general">
+            <form action="#" class="contenedor-iniciarsesion">
+                <h1 class="titulo-1">Registre una nueva cuenta</h1>
+                <h2>Ingrese sus datos para crear una cuenta</h2>
+
+                <input class="inputemail" type="text" name="nombre" id="nombre" placeholder="Primer Nombre">
+
+                <input class="inputemail" type="text" name="apellido" id="apellido" placeholder="Primer Apellido">
+
+                <input class="inputemail" type="email" placeholder="Correo electronico" />
+
+                <div class="input-password">
+                    <input class="inputpassword" type="password" placeholder="Contraseña" id="input-password" />
+                </div>
+
+                <button typer="submit" class="btn-crear-cuenta">Crear cuenta</button>
+                <h4 class="texto-2">- O inicia sesion con -</h4>
+
+                <div class="container-goo-appl-fb">
+                    <button class="btn-login-google">
+                        <a href="https://accounts.google.com/" class="Google-button" target="_blank"><i
+                                class="fa-brands fa-google"></i>Google</button></a>
+                    </button>
+
+                    <button class="btn-login-apple">
+                        <a href="https://appleid.apple.com/sign-in" target="_blank"><i
+                                class="fa-brands fa-apple"></i>Apple ID</a>
+                    </button>
+
+                    <button class="btn-login-facebook">
+                        <a href="https://www.facebook.com/" target="_blank"> <i
+                                class="fa-brands fa-facebook"></i>Facebook</a>
+                    </button>
+                </div>
+
+                <p class="crear-cuenta">
+                <h4>¿Ya tienes una cuenta?<a class="link" href="../Iniciar-Sesion/login.html"> <u>Iniciar Sesion</u></a></h4>
+                </p>
+
+                <div class="terminos-condiciones">
+                    <h4 class="titulp-p-c">Estoy de acuerdo con la <u>Politica de Privacidad</u></h4>
+                </div>
+
+            </form>
+
+            <script src="https://kit.fontawesome.com/f97468d9fe.js" crossorigin="anonymous"></script>
+            <script src="index.js"></script>       
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-general">
+            <div class="suscription">
+                <div>
+                    <h3 class="footer-tittle">
+                        SUSCRÍBASE AL BOLETÍN SEMANAL
+                    </h3>
+                </div>
+
+                <div>
+                    <p class="suscription-paragraph">
+                        Suscríbase a nuestro boletín para recibir información sobre avances exclusivos de la colección,
+                        eventos especiales y ofertas de venta de temporada.
+                    </p>
+
+                    <div class="subir-correo-suscribe">
+                        <form action="">
+                            <input class="input-suscribe" type="address-suscribe" name="address-suscribe"
+                                id="address-suscribe" placeholder="EMAIL ADDRESS">
+                        </form>
+                    </div>
+
+                    <p class="suscription-paragraph">
+                        Al suscribirte a la newsletter, confirmas haber leído la <a href=""
+                            class="privacy-policy-p"><u>Política de Privacidad</u></a> y acepta el procesamiento de sus
+                        datos personales con fines de marketing.
+                    </p>
+
+                    <div class="button-suscribe">
+                        <button class="but-suscribe">
+                            SUSCRIBETE
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="help">
+                <div class="#"><!--asistencia virtual-->
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle tittle-help">
+                            AYUDA
+                        </h3>
+                    </div>
+
+                    <ul class="ul-help">
+                        <li class="li-footer-help">
+                            <a href="#" class="help-list">
+                                CONTÁCTENOS
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                FAQS
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                ENVÍO Y DEVOLUCIONES
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                DEVOLUCIONES DE INVITADOS
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                MÉTODOS DE PAGO
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                RASTREA TU ORDEN
+                            </a>
+                        </li>
+
+                        <li class="li-footer-help">
+                            <a href="" class="help-list">
+                                CERTIFICADOS DE GAFAS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="legal">
+                <div class="#">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle tittle-legal">
+                            LEGAL
+                        </h3>
+                    </div>
+
+                    <ul class="ul-legal">
+                        <li class="li-footer-legal">
+                            <a href="#" class="legal-list">
+                                TÉRMINOS Y CONDICIONES
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="#" class="legal-list">
+                                ACCESIBILIDAD
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="#" class="legal-list">
+                                POLÍTICA DE PRIVACIDAD
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="" class="legal-list">
+                                POLÍTICA DE COOKIES
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="" class="legal-list">
+                                PREFERENCIAS DE COOKIES
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="" class="legal-list">
+                                MARCO NORMATIVO
+                            </a>
+                        </li>
+
+                        <li class="li-footer-legal">
+                            <a href="" class="legal-list">
+                                INFORMACIÓN CORPORATIVA
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="find-us">
+                <div class="description-findus">
+                    <div class="description">
+                        <div class="div-footer-tittle">
+                            <h3 class="footer-tittle tittle-find-us">
+                                ENCUÉNTRANOS
+                            </h3>
+                        </div>
+
+                        <ul class="ul-find-us">
+                            <li class="li-footer-findus">
+                                <a href="" class="findus-list">
+                                    LOCALIZADOR DE TIENDAS
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="redes-sociales">
+                        <div class="div-footer-tittle">
+                            <h3 class="footer-tittle">
+                                SEGUINOS Αγορά™
+                            </h3>
+                        </div>
+
+                        <div class="img-social-media">
+                            <ul class="ul-social-media">
+                                <li class="li-footer-follow">
+                                    <a href="https://www.instagram.com/?hl=es-la">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </li>
+
+                                <li class="li-footer-follow">
+                                    <a href="https://es-la.facebook.com/">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="li-footer-follow">
+                                    <a href="https://twitter.com/?lang=es">
+                                        <i class="fa-brands fa-square-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3 class="footer-privacypolicy">
+            © 2023 Αγορά™ - All right reserved.
+            <a href="#" class="privacy-policy-p">
+                <u>Privacy Policy</u>
+            </a>
+        </h3>
+    </footer>
+</body>
+
+</html>

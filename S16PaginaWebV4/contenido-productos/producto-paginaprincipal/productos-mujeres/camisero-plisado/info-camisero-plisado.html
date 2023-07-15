@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αγορά™ WebSite</title>
+    <link rel="WebSite icon" type="png" href="../../../../img-logo/img-tienda-WebSite.png">
+    <link rel="stylesheet" href="info-camisero-plisado.css">
+    <script src="https://kit.fontawesome.com/f812da5046.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="img-logoprin">
+                <a href="../../../../index.html">
+                    <img src="../../../../img-logo/img-tienda.png" width="100px">
+                </a>
+            </div>
+
+            <div class="ini-carrito">
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="../../../../Usuarios/Iniciar-Sesion/login.html" class="inicio-carritodecompras">
+                            Iniciar Sesion
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="ul-ini-carrito">
+                    <li>
+                        <a href="#" class="inicio-carritodecompras">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!--SEGUNDO CONTENEDOR-->
+        <!--PRODUCTOS-->
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" class="productos">
+                        SALES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        ICONS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        MEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        WOMEN
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        KIDS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        EYEWARE
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        GIFTS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        SPECIAL ITEMS
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="productos">
+                        BRAND
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <main>
+            <div class="header">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVoAAACSCAMAAAAzQ/IpAAAAgVBMVEX///8AAADY2Nipqanb29uPj4+FhYU2Njbs7OyNjY2IiIi6urrV1dXKyspxcXH39/fj4+P5+fnr6+vCwsK2trahoaFpaWmurq5eXl5MTEzQ0NCZmZlRUVFlZWV3d3dZWVk8PDxDQ0MZGRksLCwNDQ1+fn4vLy9GRkYcHBwjIyMTExOfW69YAAAQJklEQVR4nO1da3faMBLFYJIA4ZEASYCUR/Nom///A7fYsq3HHWlGkptzdvd+aoMky9f2aO5oPB4Mvg2vN993bC9Wxd13TyENy6L47ikQmBbb755CGrZFMf/uOWAUxdt3TyENn0Xx9N1zgJgXRbHKON5D2S8c67X6ewKERSiHFuCIdqOq1epx+ZBKxeLvxCapg2gYFgy8f94G8El1dU54fP3rBs7lZB3mDY54tg79s/3l9+54mMXfdwV90aNQejm9TDdD1qo5JgZwOaz+vGPNbYVGHIOGy3I2uXTc38xiVvpN1TnjMuCh9oZ/mEdiiFun5b7+gXXu8IlC1NZYL7pWb+N79uQVdlXHhbQbDYrap71klFdilKHT8lj/wPJyhNQOKu9DaymyDXeql6SPH5ja6VI0yJy6Pm5T9csfzrByageDkd7215p/Ds1VmfG7BICoPcqIHQx+gkGucMeZNT+VjGFjqB08vOitv/CCCdCsma/cDkG41P7hnLWBrTNGjYPb9NT8NmWMG0WtdeMWX7w7t+NBel8xhlSQC/wHgllgtpa+Hx1EUju4N3vsHhnHmrbNR4zWLNjUCqxTgyPBLLBa2g3FcD9iqXVOirFodo0/GQdgwZpFhMMNvc+/OIO2t93PDC8nmlr7vi1+hZ5yfSHOJXYNat9j7MyFoBaYbOMqhEeOp3bwzJiNjoX4CGEY1MYwuyaYRXelodnCa3cCtYMnu5/f0hlNeUcIQqc2KhD8TlCLLpPRIOzlpFA7cDo+expvjJYitURDo9aVTgwcCGbRyrE3mwSvZBK1G6enh1tTTR6ZhwigozbK6Vja81d4R40tVyK4bidRO3CDcaRTcmc15B7Cj5bal6jujklTgJbNahMM6adRCxYBau23NU8esdtSGxVJpoI7MGg4s1uFvJw0agdfTt8voqUdGD6xj+FDQ07chToT1ELSTnarUEg/kVqgv7Ez7XrmWcSuovZXVGfnPlT4QI2BWQ4Mn0itbUGvgOZ26jTLInYVteKQTAWCWWxcRm67gJeTSK0Kbhv4yTsNN4QfgZraH1F9qV0bfM1v3YYBsZtKLYrIgbmhaHMOsVvGj4QeuCtwmBuGGvwHSKWWecgFaJVD7FbUxoV/fxDUYvcR3uL+xTOVWmiwiI1QC9AvF6KkyQjAji41IDwX2NZ/TZOpfQH9HTOK1+IMYreiNqonzhIoChx43uPGXi8nmVqowm3jh7dMM4jdK7VRKSNO2E6B2KU44jCO18tJphbekNa2ErViCA5D4EptlOdFzIiaUoHthzekn0wtFIsXs83hgMV6xHaLe/Qok+262TWI8NLsZfAbtvf5JsnU4uCR2aZY4YhzXExFR0lopwCodBkq5LJbE+FHH1PJ1OJHy8irKd+pBzBZ7JZxt74TD1AgFtZlQV4Nz0HSqYUJEsaDdbOl9k2TxW4ZdXmodBnqKdpen4yL5GJckU4tDB8ZKRDXs8fey1lyIISSjLT58Ieglto4+HndwcA+hcfLSacWPlx6utS8WtTwyXDSF3woY3LzQKTFe9qr6rEnUkHow6RTizSDoVN+VOIMB0NA8o8IZcSrEYJ0mRrTepZYGdNiN51aeMSz1qCeMk6liHmcdZQRq9gHwSy5/a2eLezl0CH9dGqhy3ruft8o4wCicoXlSshRyqNeVLoMGeTcN7/gfuQy2hO1mma4qOgJtnAxXqmGUu4ggAhzBXKzfdG4O/h2J72cngxC58Ysi/YfEJJDuSjF/al0GfqNpXbXAYtd8m7vaRnrbsZtG/DAfnqa2JVT626U1iDv/tkp0JcyST05X926/d5GT3BkMW7zpZ2+NIIgyFNW2HUXXyZ206mFtquNTq+02wqfVNK7aEPhu5NUugx98y+1n7DYpa5uOrXwdbaWrxvN70S7OP48sSBWQsVA5SnTZmmr6y2cuEB4Of3EELq8AF08YrF7AWP2Bcrx8szhp+45iMRuP5Gv1iGZX0JN08WuABeCWto5XhmmQuTl9ENtu9w+GRJnAieWKnb5oNJlPDGWiTk76A4R5iSZWmTau1XfvKD4efwtOFoaCGZ9ssN6piQh/WRqkQFt/a2N5VrhbdSopOMISPKUFfb27pfg2iRT66YvaxfxYqUIYK/yHxVzoRwvX4hoYfsvgpB+MrXAfrZOwZ1t4ImtXcHhEiDKU1ZwvG4sds+obzK1rhjrDP/WCb7ghIT0nV0GqKoUvuIGMzdkiBMSkJeTPzHprE3DSREA5qP4R8VccFDTv9+9cy86P6SfP51uqf3mtsenl1x4JQx8Uf1RzSU4AX5IP5VaJwqrqb4bcC2x2GW/mx4PglnvVR0hh5cd0s+duqw/QWiHFO9TxyXMSyDLU1b4g6ID7JB+5oR7/fabn1EPfIZ9l6yT5SkrIIMmELuJ1FpeuGH1n2BMC2db9V2yDgvUQB7qBPPADeknUmv2M2UVdlfxu1qsYi7xINJjA29YEYEjbkg/jVrjpj2bcm9DpPng1JW4d2i4kOUpK+ypMDsey1kPk6g1LJjtDvwi8uC/QexSecr+CjILaonDYtcxf0nUakH3W9vzRj5hhW8QuwSzgWOSfhkzpJ9CrbZN7jqmrshtgBMBeqxcekMw6986AiK3AR7Oti4J1HbMovX9i7Se/1rsUnnKgQI4r3Rkgyd2o6l9bLYb/8CLj33CGvhMGceMA1XWz58TRRq0ASV27bc8I6l9aNzTIzHBqWdbBkf3+hK7VJ5yIAECitwGuCirFdKPonav1sgj/cz49BU+WV7lUjnw+x1BAQhFbgMsdi0vR0rt3X5U33RPI58ruve+3Bx1rpGQ5ikr+AwaU+xCas/HhYunH6dznfR02gbfU8QitwFesnsRu+I8ZYWxn3psv00vB1L7tJ652Iy24+Op0VLnhbf4sn/mWOz2Up+dylMOlf0IZEdgsWt6OXJbu5p9tOZrN8bu6CzwRhi2fz2IXUlZPx33oeuMhzVERpyHcDfqhNjryDWSYOPDAN625lQuFYLKUw5dRVLktg3gsIaXE+3XrrRH7fxsakKfT1hB/n5bHCRl/QwEt5Sw2DVC+glqbKmHKY664aVFboNfcGbZxa6krJ+OdbieEx5Yf4CTwjMr3XV+6cj9CubD4FhUxvrsFeR5ygoekdsA56/pXk5iKNxwo57UzeD3CSuI32+Lgaisn9kxPDheIPWQfuq2oxlrqS+aT+Q2kL7fFgO81DAySrwitwEOr2vrY3KKh7lS3F7dQY6uwgtMvvrsA7qsX3j72CtyGwRD+un5tVaMcOZm90Hg085Wn30gLOun45FlmIIh/XRqbcFzOLLeTsAyKaPYjchTVgiI3AYhsZuBWmcjkZVmhLPbstVnj0uXUT15rwCEQvo5qLUTI3l1T/A3PLJ9jCwiT1nhnrtzjw/Q/pyDWifpgbUZg88918fIqHQZWPDRxJFbWyQgdrNQ6+TzcqIB/YpdWVk/A+y1NBDSz0Kt6+NxHFS8guepz06V9WN4d2u+B4iP0bieeah1fTyGaysu5iIAlafMWKBO/Bx1f/5aHmpd1cdI6+zlLf4aMXnKCg+CCfhD+nmoBY8GY4MWpw/mELsEsxzWRpIYkTd/LRO1IDEy3ElazIUNHJXilRV7k5RswWJXLeKZqAUnw4jRYAKSxW5UnrICT+QGjlT/mIlatCUd7iUs5sJFVJ6ywlj2xjBOY649vEzUomc7HErAMc/U+uxxecoK1L6ECLW5zkQtlf0ThUSxKy3rp4MtchV8If0+qQ1TJK9cGgaVLsOS0GyR2wDnr1VeTp/Uhs2WrJgLDwSzvOVJ/HIgflwrQdcntedwv/xil8pTZiVCCkRuA3y0q/Hp1daG3ajsYpf/+XGEk1yv0PlrvVIbDjNl39mNy1NuZyM/IB3S75Vaho8oKeYSPQ9uoTaRyG1A1mfvlVpGSDxzfXbq8+O83N03YOSPoa5kSL9XajlpnZiKSLFLpcvwTgiK3GAckgzp9ysZGD1zit3YPGWFMXJ9wyFenL+275laxs0nKOYShODz4whQ44RtCeXl9EstZ9eZX8wlhNg8ZYUhKji2DFNLeTn9UsvJ885Xn/1CUMvMNocid8VYAfEW5xruQWSjllMcDd9rEWI3Ok9ZAZqvOYNawsuBJ5aNWpajLqpc6kFsnrLCGr64NuL4bfi4kBM5tUSMlMVPpvrsVLoM17RgkXvkUIu9HJgBIqeWSLhkUZtnZzc6T1mBELlvHGqprIcs1BKLM++pzlKfPTpPWeEZmuQHnpCjRGAOaon9Nx61OF1TJnZFnx9H+ISRzDmPWsoY5aCWeCSYaxHuLIpKR+cpKxA7uTc8aqlQZg5qCR3EpJZZzMUD0efHEQ54f6dgRnaoK5uBWmIgJrXp9dmpM2Hf+fj2HnKppQoHpVM7e7qkUJtcnz2qrJ8OKHJrr4pFLfm9h2Rqd3Ms9rjUJopdKl2GX4X8iJPFCy61ZFpJKrXLgvCaudQm1mdPyFNWwJLtmU8tpbJTqd0eCUnFVqusYi4UEvKUFbDIrfdmmMVFeqL29z2xErGpTRK7+LpIbDUWubXbwaSWqmmRRu31nVxsx9nUpohd4efHAQiR+yWhlil2hdRWxUjht7j44asEsUudBf8EsMhVG23cakO8RDwhtdWTBzU8n9r4j5EJPz+OcItEbuN2cKmlHMAUautipPD1AUHQFc8k7PJLPz8Oh0B/bWqrcKmlto9SqK3rtEDfUkBt7MfIhJ8fRzig19zafXd2+TGW2JVRq24ttE4LqGUUc+F3k8XNkMjt9gzZ1FLZp/HUzpT7iAJrkpRDPJXQiaXkKSsMwculdxEjscSu7NuOahlHRk+S+Bf1MbKkPGWFD1fkPmixbf5FomxTLLVdnRZQU0uSBBMu5uIiMV2mBhC5+ouxfGqpyGYstV2dFiCjRXuHWFR5kwjEnx8HWDv2fGlYGYFpyUzt726pcu2eqHCqvD67+PPjCC+21bJGFVBLJUbFUasXngIPBH+gmPrs4s+PAzgi13bQBdRS7koctcYXN9z3uUWJGpzKpTrknx8HeLZaO6/USMrqZqXWCC+5D2hK7aUgUdQWtSg51xS54GpJqA2LXT4he3MFd4aWpW7h2VCto8v66TC+kVgiCyOhNix2+dTaxUgv9lCiCpSij5HJPz+OoIncId6EEdXZpkpcRFBrP3yOoyn6kpioPntinnJzAo3I3VCsiKgNil02tTNnj8RZ5tFtO6OsoeDkIj4/DlBWFms5o75WKqU2KHbZ1IJipA63bq8D6XcKPkZ2IeYue3f6Y3S3nvhDVrLC+6GdXS61cOPjwTpp58Z+pd+e54tdSlS+bUZcbCdHjur377BtzTGfqay+BqdnaxJ3eKjFrd6wvbmsGJgZ31vrK/jQOluiHM/BoWVwmIwhJjd8TKfEIDpu/K7chz1mYDh7fh/dU/Yx1TAZ6//rJOmjeTd8dnGA+a3x2aG5PbMJhMuK93T/uzE0sy5eN+Xd4/3mWLznLf77v4nls2vIPiTi/v/woZwdPn687na702I6muf8xs1/ABWgwNpimUnfAAAAAElFTkSuQmCC"
+                    alt="logomarca" class="img-marca">
+            </div>
+
+            <div class="primer-contenido">
+                <div class="primer-contenerdor">
+                    <div class="container-img">
+                        <div class="produt-tittle">
+                            <h3 class="tittle">
+                                VESTIDO CAMISERO PLISADO
+                            </h3>
+                        </div>
+
+                        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/N/r/1682681492_F_23_3_LOOK_701_E04_GH.jpg?imwidth=640"
+                            alt="producto" class="img-producto" />
+                    </div>
+                </div>
+
+                <div class="segundo-contenerdor">
+                    <div class="container-info-product">
+                        <div class="container-price">
+                            <span class="price">
+                                <strong>S/. 569</strong>
+                            </span>
+                        </div>
+
+                        <div class="container-details-product">
+                            <div class="form-group">
+                                <label for="colour">
+                                    <strong>
+                                        Color
+                                    </strong>
+                                </label>
+
+                                <select name="colour" id="colour">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="Algodón Azul">Algodón Azul</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="size">Talla</label>
+                                <select name="size" id="size">
+                                    <option value="">Escoge una opcion</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
+
+                            <button class="btn-clean">Limpiar</button>
+
+                        </div>
+
+                        <div class="container-add-cart">
+                            <div class="container-quantity">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                                <div class="btn-increment-decrement">
+                                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                                </div>
+                            </div>
+
+                            <button class="btn-add-to-cart">
+                                <i class="fa-regular fa-plus"></i>
+                                Añadir al carrito
+                            </button>
+                        </div>
+
+                        <div class="container-description">
+                            <div class="tittle-description">
+                                <h4>Descripción</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-description hidden">
+                                <p>
+                                    Este vestido camisero es una creación atemporal que se ha reinterpretado con los
+                                    elementos modernos de la Maison.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-additional-information">
+                            <div class="tittle-additional-information">
+                                <h4>Información adicional</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="text-additional-information hidden">
+                                <p>
+                                    - Emblema de abeja bordado en la parte delantera <br>
+                                    - Cierre de botones delantero <br>
+                                    - Modelo plisado <br>
+                                    - Sin forro <br>
+                                    - 100 % algodón <br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container-reviews">
+                            <div class="tittle-reviews">
+                                <h4>Reseñas</h4>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+
+                            <div class="text-reviews hidden">
+                                <p>ga</p>
+                            </div>
+                        </div>
+
+                        <div class="container-social">
+                            <span>Compartir</span>
+
+                            <div class="button-social">
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+
+                                <a href="https://www.pinterest.es/">
+                                    <i class="fa-brands fa-square-pinterest"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="container-related-products">
+            <h2>TAMBIÉN PODRÍA INTERESARTE</h2>
+            <div class="card-list-products">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/y/1/1681232792_342J31A3089_X5475_E01_ZHC.jpg?imwidth=1080"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    FALDA PLISADA
+                                </strong>
+                            </h3>
+                            <p class="category">Light Blue Cotton</p>
+                        </div>
+                        <div class="price">S/. 379</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/B/7/1681209796_E2314WOMMT_D300_E03_ZHC.jpg?imwidth=1080"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    PENDIENTES CD LOCK
+                                </strong>
+                            </h3>
+                            <p class="category">Gold-Finish Metal</p>
+                        </div>
+                        <div class="price">S/. 1289</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/L/A/1681232696_KCI928VEA_S900_E02_ZHC.jpg?imwidth=1080"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    BOTÍN DIORANGER
+                                </strong>
+                            </h3>
+                            <p class="category">Black Calfskin</p>
+                        </div>
+                        <div class="price">S/. 429</div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.dior.com/couture/ecommerce/media/catalog/product/y/f/1681232815_S5173UWHC_M900_E01_ZHC.jpg?imwidth=1080"
+                            alt="producto" />
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>
+                                <strong>
+                                    DIOR CARO DAHLIA
+                                </strong>
+                            </h3>
+                            <p class="category">Supple calfskin</p>
+                        </div>
+                        <div class="price">S/. 399</div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://kit.fontawesome.com/f97468d9fe.js" crossorigin="anonymous"></script>
+            <script src="info-camisero-plisado.js"></script>
+        </section>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-general">
+        <div class="suscription">
+            <div>
+                <h3 class="footer-tittle">
+                    SUSCRÍBASE AL BOLETÍN SEMANAL
+                </h3>
+            </div>
+
+            <div>
+                <p class="suscription-paragraph">
+                    Suscríbase a nuestro boletín para recibir información sobre avances exclusivos de la colección,
+                    eventos especiales y ofertas de venta de temporada.
+                </p>
+
+                <div class="subir-correo-suscribe">
+                    <form action="">
+                        <input class="input-suscribe" type="address-suscribe" name="address-suscribe"
+                            id="address-suscribe" placeholder="EMAIL ADDRESS">
+                    </form>
+                </div>
+
+                <p class="suscription-paragraph">
+                    Al suscribirte a la newsletter, confirmas haber leído la <a href=""
+                        class="privacy-policy-p"><u>Política de Privacidad</u></a> y acepta el procesamiento de sus
+                    datos personales con fines de marketing.
+                </p>
+
+                <div class="button-suscribe">
+                    <button class="but-suscribe">
+                        SUSCRIBETE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="help">
+            <div class="#"><!--asistencia virtual-->
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-help">
+                        AYUDA
+                    </h3>
+                </div>
+
+                <ul class="ul-help">
+                    <li class="li-footer-help">
+                        <a href="#" class="help-list">
+                            CONTÁCTENOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            FAQS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            ENVÍO Y DEVOLUCIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            DEVOLUCIONES DE INVITADOS
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            MÉTODOS DE PAGO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            RASTREA TU ORDEN
+                        </a>
+                    </li>
+
+                    <li class="li-footer-help">
+                        <a href="" class="help-list">
+                            CERTIFICADOS DE GAFAS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="legal">
+            <div class="#">
+                <div class="div-footer-tittle">
+                    <h3 class="footer-tittle tittle-legal">
+                        LEGAL
+                    </h3>
+                </div>
+
+                <ul class="ul-legal">
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            TÉRMINOS Y CONDICIONES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            ACCESIBILIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="#" class="legal-list">
+                            POLÍTICA DE PRIVACIDAD
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            POLÍTICA DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            PREFERENCIAS DE COOKIES
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            MARCO NORMATIVO
+                        </a>
+                    </li>
+
+                    <li class="li-footer-legal">
+                        <a href="" class="legal-list">
+                            INFORMACIÓN CORPORATIVA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="find-us">
+            <div class="description-findus">
+                <div class="description">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle tittle-find-us">
+                            ENCUÉNTRANOS
+                        </h3>
+                    </div>
+
+                    <ul class="ul-find-us">
+                        <li class="li-footer-findus">
+                            <a href="" class="findus-list">
+                                LOCALIZADOR DE TIENDAS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="redes-sociales">
+                    <div class="div-footer-tittle">
+                        <h3 class="footer-tittle">
+                            SEGUINOS Αγορά™
+                        </h3>
+                    </div>
+
+                    <div class="img-social-media">
+                        <ul class="ul-social-media">
+                            <li class="li-footer-follow">
+                                <a href="https://www.instagram.com/?hl=es-la">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://es-la.facebook.com/">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li class="li-footer-follow">
+                                <a href="https://twitter.com/?lang=es">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3 class="footer-privacypolicy">
+        © 2023 Αγορά™ - All right reserved.
+        <a href="#" class="privacy-policy-p">
+            <u>Privacy Policy</u>
+        </a>
+    </h3>
+</footer>
+
+</html>
